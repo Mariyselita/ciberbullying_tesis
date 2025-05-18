@@ -1,0 +1,87 @@
+library(tidyverse)
+library(tidytext)
+library(extrafont)
+
+library(showtext)
+
+font_add("Century Gothic", 
+         regular = "C:/Users/marie/OneDrive/Escritorio/MOCIBA/Century Gothic/CenturyGothic.ttf", 
+         bold = "C:/Users/marie/OneDrive/Escritorio/MOCIBA/Century Gothic/centurygothic_bold.ttf")
+showtext_auto() # Activa el soporte para fuentes personalizadas
+
+
+# Cargar los datos
+datos <- CB_data_sentiment_analysis_based_rules
+
+# Unir positivos y negativos con una columna de "sentimiento"
+palabras_sentimiento <- datos %>%
+  filter(Sentiment %in% c("Positive", "Negative")) %>%  # Ajusta si usas otros labels
+  unnest_tokens(palabra, text_filtered) %>%
+  count(Sentiment, palabra, sort = TRUE) %>%
+  group_by(Sentiment) %>%
+  slice_max(n, n = 15) %>%  # Top 15 palabras por sentimiento
+  ungroup()
+
+# Graficar
+ggplot(palabras_sentimiento, aes(x = reorder_within(palabra, n, Sentiment), y = n, fill = Sentiment)) +
+  geom_col(show.legend = FALSE) +
+  scale_x_reordered() +
+  coord_flip() +
+  facet_wrap(~Sentiment, scales = "free_y") +  # Escalas independientes
+  labs(title = "Top 15 palabras por sentimiento", x = "Palabra", y = "Frecuencia") +
+  scale_fill_manual(values = c("Positive" = "#1f77b4", "Negative" = "#ff7f0e"))+  # Colores personalizados
+  # Tema
+  theme_light(base_family = "Century Gothic") +
+  theme(
+    plot.title = element_text(size = 10, hjust = 10),
+    legend.position = "none",
+    strip.placement = "outside",
+    strip.background = element_rect(fill = "#E6ECF1", color = "gray80", size = 0.5),
+    strip.text = element_text(face = "bold", size = 12, hjust = 0.5, color = "black"),
+    panel.spacing = unit(0.1, "lines"),
+    panel.border = element_rect(color = "gray85", fill = NA),
+    panel.background = element_blank()
+  ) +
+  theme(
+    plot.margin = margin(10, 10, 10, 10),
+    panel.grid.major.y = element_blank()
+  ) +
+  facet_grid(~"Top 15 de palabras en negativo y positivo")+
+  scale_fill_brewer(palette = "Set2") 
+
+palabras_sentimiento <- palabras_sentimiento %>%
+  filter(!palabra %in% c("día", "así", "hoy", "solo"))  # Palabras a excluir
+
+
+
+
+# Filtrar palabras que aparecen en ambos sentimientos
+palabras_comunes <- palabras_sentimiento %>%
+  group_by(palabra) %>%
+  filter(n_distinct(Sentiment) == 2) %>%  # Solo palabras presentes en ambos
+  ungroup()
+
+# Graficar (barras apiladas)
+ggplot(palabras_comunes, aes(x = reorder(palabra, n), y = n, fill = Sentiment)) +
+  geom_col(position = "stack") +
+  coord_flip() +
+  labs(title = "Palabras comunes en posts positivos y negativos", 
+       x = "Palabra", y = "Frecuencia total") +
+  scale_fill_manual(values = c("Positive" = "#619cff", "Negative" = "#f8766d")) +
+  # Tema
+  theme_light(base_family = "Century Gothic") +
+  theme(
+    plot.title = element_text(size = 10, hjust = 10),
+    legend.position = "none",
+    strip.placement = "outside",
+    strip.background = element_rect(fill = "#E6ECF1", color = "gray80", size = 0.5),
+    strip.text = element_text(face = "bold", size = 12, hjust = 0.5, color = "black"),
+    panel.spacing = unit(0.1, "lines"),
+    panel.border = element_rect(color = "gray85", fill = NA),
+    panel.background = element_blank()
+  ) +
+  theme(
+    plot.margin = margin(10, 10, 10, 10),
+    panel.grid.major.y = element_blank()
+  ) +
+  facet_grid(~"Palabras comunes en posts positivos y negativos")

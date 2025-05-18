@@ -1,0 +1,8 @@
+# Ignorar datos pesados
+*.dbf
+*.zip
+*.qgz
+*.tif
+*.csv
+*.xlsx
+/scraper/
