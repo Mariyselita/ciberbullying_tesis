@@ -4,8 +4,9 @@ Este repositorio contiene el desarrollo completo de mi tesis de maestría, centr
 
 ---
 
-## 🗂 Estructura del proyecto
+## 📁 Estructura del proyecto
 
+```plaintext
 mi-tesis/
 ├── data-exploration/
 │   ├── mapas.R
@@ -20,7 +21,7 @@ mi-tesis/
 │   └── api_response.json
 ├── .gitignore
 └── README.md
-
+```
 ---
 
 ## 🔍 Descripción general
