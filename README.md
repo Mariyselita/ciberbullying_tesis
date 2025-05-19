@@ -6,12 +6,20 @@ Este repositorio contiene el desarrollo completo de mi tesis de maestría, centr
 
 ## 🗂 Estructura del proyecto
 
-├── data-exploration/ # Scripts y visualizaciones en R (incluye mapas)
-├── docs/ # Artículos académicos y documentos relevantes en PDF
-├── notebooks/ # Cuadernos Jupyter en Python con la metodología aplicada
-├── utils/ # Archivos JSON como lexicones y datos de la API de X (Twitter)
-├── .gitignore # Archivos y carpetas ignoradas por Git
-└── README.md # Este archivo :)
+📁 mi-tesis/
+├── data-exploration/
+│   ├── mapas.R
+│   └── graficas.R
+├── docs/
+│   └── articulo1.pdf
+├── notebooks/
+│   ├── 01_preprocesamiento.ipynb
+│   └── 02_modelo_sentimientos.ipynb
+├── utils/
+│   ├── lexicon.json
+│   └── api_response.json
+├── .gitignore
+└── README.md // este archivo C:
 
 
 ---
