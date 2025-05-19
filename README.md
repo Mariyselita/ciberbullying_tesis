@@ -6,7 +6,7 @@ Este repositorio contiene el desarrollo completo de mi tesis de maestría, centr
 
 ## 🗂 Estructura del proyecto
 
-📁 mi-tesis/
+`📁 mi-tesis/
 ├── data-exploration/
 │   ├── mapas.R
 │   └── graficas.R
@@ -19,7 +19,7 @@ Este repositorio contiene el desarrollo completo de mi tesis de maestría, centr
 │   ├── lexicon.json
 │   └── api_response.json
 ├── .gitignore
-└── README.md // este archivo C:
+└── README.md // este archivo C:`
 
 
 ---
