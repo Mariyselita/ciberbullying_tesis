@@ -1,0 +1,365 @@
+{
+  "type": "tweet",
+  "id": "962480528996749312",
+  "url": "https://x.com/marcoramosc/status/962480528996749312",
+  "twitterUrl": "https://twitter.com/marcoramosc/status/962480528996749312",
+  "text": "Yo escuchando los audios de mi amigo que sufre acoso. https://t.co/cjqiCOT7Kb",
+  "source": "Twitter for Android",
+  "retweetCount": 0,
+  "replyCount": 0,
+  "likeCount": 4,
+  "quoteCount": 0,
+  "createdAt": "Sun Feb 11 00:16:54 +0000 2018",
+  "lang": "es",
+  "bookmarkCount": 0,
+  "isReply": false,
+  "conversationId": "962480528996749312",
+  "possiblySensitive": false,
+  "isPinned": false,
+  "author": {
+    "type": "user",
+    "userName": "marcoramosc",
+    "url": "https://x.com/marcoramosc",
+    "twitterUrl": "https://twitter.com/marcoramosc",
+    "id": "128285410",
+    "name": "Marco ",
+    "isVerified": false,
+    "isBlueVerified": false,
+    "profilePicture": "https://pbs.twimg.com/profile_images/1647958948228612101/7nKAIh2v_normal.jpg",
+    "coverPicture": "https://pbs.twimg.com/profile_banners/128285410/1519422966",
+    "description": "Un tapatío feliz 🙂",
+    "location": "Guadalajara, México. ",
+    "followers": 996,
+    "following": 698,
+    "status": "",
+    "canDm": true,
+    "canMediaTag": false,
+    "createdAt": "Wed Mar 31 17:36:11 +0000 2010",
+    "entities": {
+      "description": {
+        "urls": []
+      },
+      "url": {
+        "urls": [
+          {
+            "display_url": "instagram.com/marcoramosc",
+            "expanded_url": "http://instagram.com/marcoramosc",
+            "url": "https://t.co/vyflJ2qnM1",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      }
+    },
+    "fastFollowersCount": 0,
+    "favouritesCount": 12175,
+    "hasCustomTimelines": true,
+    "isTranslator": false,
+    "mediaCount": 2131,
+    "statusesCount": 15099,
+    "withheldInCountries": [],
+    "affiliatesHighlightedLabel": {},
+    "possiblySensitive": false,
+    "pinnedTweetIds": []
+  },
+  "extendedEntities": {
+    "media": [
+      {
+        "display_url": "pic.x.com/cjqiCOT7Kb",
+        "expanded_url": "https://x.com/marcoramosc/status/962480528996749312/photo/1",
+        "id_str": "962480526182334467",
+        "indices": [
+          54,
+          77
+        ],
+        "media_key": "3_962480526182334467",
+        "media_url_https": "https://pbs.twimg.com/media/DVtq8GpUQAMzPiE.jpg",
+        "type": "photo",
+        "url": "https://t.co/cjqiCOT7Kb",
+        "ext_media_availability": {
+          "status": "Available"
+        },
+        "features": {
+          "large": {
+            "faces": [
+              {
+                "x": 196,
+                "y": 45,
+                "h": 157,
+                "w": 157
+              }
+            ]
+          },
+          "medium": {
+            "faces": [
+              {
+                "x": 196,
+                "y": 45,
+                "h": 157,
+                "w": 157
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 196,
+                "y": 45,
+                "h": 157,
+                "w": 157
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 196,
+                "y": 45,
+                "h": 157,
+                "w": 157
+              }
+            ]
+          }
+        },
+        "sizes": {
+          "large": {
+            "h": 406,
+            "w": 671,
+            "resize": "fit"
+          },
+          "medium": {
+            "h": 406,
+            "w": 671,
+            "resize": "fit"
+          },
+          "small": {
+            "h": 406,
+            "w": 671,
+            "resize": "fit"
+          },
+          "thumb": {
+            "h": 150,
+            "w": 150,
+            "resize": "crop"
+          }
+        },
+        "original_info": {
+          "height": 406,
+          "width": 671,
+          "focus_rects": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 671,
+              "h": 376
+            },
+            {
+              "x": 81,
+              "y": 0,
+              "w": 406,
+              "h": 406
+            },
+            {
+              "x": 106,
+              "y": 0,
+              "w": 356,
+              "h": 406
+            },
+            {
+              "x": 183,
+              "y": 0,
+              "w": 203,
+              "h": 406
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 671,
+              "h": 406
+            }
+          ]
+        },
+        "media_results": {
+          "result": {
+            "media_key": "3_962480526182334467"
+          }
+        }
+      }
+    ]
+  },
+  "card": {},
+  "place": {
+    "bounding_box": {
+      "coordinates": [
+        [
+          [
+            -103.4086326,
+            20.6005851
+          ],
+          [
+            -103.4086326,
+            20.7527191
+          ],
+          [
+            -103.263131,
+            20.7527191
+          ],
+          [
+            -103.263131,
+            20.6005851
+          ],
+          [
+            -103.4086326,
+            20.6005851
+          ]
+        ]
+      ],
+      "type": "Polygon"
+    },
+    "country": "Mexico",
+    "country_code": "MX",
+    "full_name": "Guadalajara, Jalisco",
+    "name": "Guadalajara",
+    "id": "7807880b17af73d8",
+    "place_type": "city",
+    "url": "https://api.twitter.com/1.1/geo/id/7807880b17af73d8.json"
+  },
+  "entities": {
+    "hashtags": [],
+    "media": [
+      {
+        "display_url": "pic.x.com/cjqiCOT7Kb",
+        "expanded_url": "https://x.com/marcoramosc/status/962480528996749312/photo/1",
+        "id_str": "962480526182334467",
+        "indices": [
+          54,
+          77
+        ],
+        "media_key": "3_962480526182334467",
+        "media_url_https": "https://pbs.twimg.com/media/DVtq8GpUQAMzPiE.jpg",
+        "type": "photo",
+        "url": "https://t.co/cjqiCOT7Kb",
+        "ext_media_availability": {
+          "status": "Available"
+        },
+        "features": {
+          "large": {
+            "faces": [
+              {
+                "x": 196,
+                "y": 45,
+                "h": 157,
+                "w": 157
+              }
+            ]
+          },
+          "medium": {
+            "faces": [
+              {
+                "x": 196,
+                "y": 45,
+                "h": 157,
+                "w": 157
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 196,
+                "y": 45,
+                "h": 157,
+                "w": 157
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 196,
+                "y": 45,
+                "h": 157,
+                "w": 157
+              }
+            ]
+          }
+        },
+        "sizes": {
+          "large": {
+            "h": 406,
+            "w": 671,
+            "resize": "fit"
+          },
+          "medium": {
+            "h": 406,
+            "w": 671,
+            "resize": "fit"
+          },
+          "small": {
+            "h": 406,
+            "w": 671,
+            "resize": "fit"
+          },
+          "thumb": {
+            "h": 150,
+            "w": 150,
+            "resize": "crop"
+          }
+        },
+        "original_info": {
+          "height": 406,
+          "width": 671,
+          "focus_rects": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 671,
+              "h": 376
+            },
+            {
+              "x": 81,
+              "y": 0,
+              "w": 406,
+              "h": 406
+            },
+            {
+              "x": 106,
+              "y": 0,
+              "w": 356,
+              "h": 406
+            },
+            {
+              "x": 183,
+              "y": 0,
+              "w": 203,
+              "h": 406
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 671,
+              "h": 406
+            }
+          ]
+        },
+        "media_results": {
+          "result": {
+            "media_key": "3_962480526182334467"
+          }
+        }
+      }
+    ],
+    "symbols": [],
+    "timestamps": [],
+    "urls": [],
+    "user_mentions": []
+  },
+  "isRetweet": false,
+  "isQuote": false,
+  "media": [
+    "https://pbs.twimg.com/media/DVtq8GpUQAMzPiE.jpg"
+  ],
+  "isConversationControlled": false
+}
