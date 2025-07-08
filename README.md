@@ -7,13 +7,14 @@ Este repositorio contiene el desarrollo completo de mi tesis de maestría, centr
 ## 📁 Estructura del proyecto
 
 ```plaintext
-mi-tesis/
+ciberbullying-tesis/
 ├── data-exploration/
-│   ├── mapas.R
-│   └── graficas.R
+│   ├── mapa/*
+│   └── R.project/*
+|
 ├── docs/*
 |
-├── mapas/
+├── mapas/*
 │  
 ├── notebooks/
 │   ├── obtención
