@@ -11,14 +11,42 @@ mi-tesis/
 ├── data-exploration/
 │   ├── mapas.R
 │   └── graficas.R
-├── docs/
-│   └── articulo1.pdf
+├── docs/*
+|
+├── mapas/
+│  
 ├── notebooks/
-│   ├── 01_preprocesamiento.ipynb
-│   └── 02_modelo_sentimientos.ipynb
+│   ├── obtención
+|   |   ├── CB_SMTH_BOW.ipynb
+|   |   ├── convert.js
+│   |   └── index.js
+|   |
+|   ├──creación_dataset
+|   |   ├── CB_CREACIÓN-DATASET.ipynb
+|   |   ├── Centroides.ipynb
+│   |   └── Centroides_B.ipynb
+|   |
+|   ├── PLN
+|   |   ├── CB_PLN.ipynb
+|   |   ├── CB_Tratamiento-DatasetB.ipynb
+│   |   └── CB_Tratamiento.ipynb
+|   |
+│   └── modelos_clasificación
+|   |   ├── CB_CLASIFICACIÓN_LEXICONES_minidataset.ipynb
+|   |   ├── CB_Clasificación-RegresiónLogística.ipynb
+|   |   ├── CB_ETIQUETADO.ipynb
+|   |   ├── CB_MLP.ipynb
+|   |   ├── CB_NB.ipynb
+|   |   ├── CB_Random-Forest.ipynb
+|   |   ├── CB_SVM_BETO.ipynb
+|   |   ├── CB_SVM_hp.ipynb
+│   |   └── CB_Tuits clasificados de kaggle.ipynb
+|   |
 ├── utils/
-│   ├── lexicon.json
-│   └── api_response.json
+│   ├── 962480528996749312.json
+│   ├── CB-Ejemplo_JSON_Resultante_API
+│   └── CB-Fichero_Nefasto.json
+|
 ├── .gitignore
 └── README.md
 ```
@@ -30,10 +58,10 @@ Este trabajo explora las dinámicas del ciberacoso mediante el análisis de text
 
 ### Tecnologías y herramientas usadas
 
-- **Python (Jupyter Notebooks)**: `pandas`, `scikit-learn`, `transformers`, `pysentimiento`
+- **Python (Colab Notebooks)**: `pandas`, `scikit-learn`, `transformers`, `pysentimiento`
 - **R**: `ggplot2`, `sf`, `tidyverse` para visualización y mapas
 - **APIs**: Twitter/X API (recolección de datos)
-- **GIS**: Procesamiento geográfico con coordenadas
+- **GIS**: Procesamiento geográfico con coordenadas a archivos shapefile y visualización (pdf, png, svg)
 
 ---
 
@@ -64,14 +92,20 @@ Detectar y analizar el ciberacoso con enfoques automáticos, contribuyendo a la 
 ## 🐧 Autor
 
 **Marisela Cadena**  
-Para obtener grado de Maestra en Ciencias de la Computación
-[Instituto Politécnico Nacional](https://www.ipn.mx)
+- Para obtener grado de Maestro en Ciencias de la Computación
+- [Instituto Politécnico Nacional](https://www.ipn.mx)
 
 ---
 
 ## 📌 Nota
 
 Este repositorio es parte de un trabajo académico. Si deseas usar algún fragmento de código, por favor, cita adecuadamente o contacta a la autora.
+
+El dataset en el siguiente enlace:
+- [Dataset](https://www.kaggle.com/datasets/mariyselita/posts-de-x-preprocesados-de-mexico)
+
+Citar APA:
+- Marisela Cadena Cosmes. (2025). Pre-processed X posts from Mexico [Dataset]. Kaggle. https://doi.org/10.34740/KAGGLE/DS/7822010
 
 ---
 
