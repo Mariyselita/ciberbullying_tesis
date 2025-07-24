@@ -12,10 +12,6 @@ ciberbullying-tesis/
 │   ├── mapa/*
 │   └── R.project/*
 |
-├── docs/*
-|
-├── mapas/*
-│  
 ├── notebooks/
 │   ├── obtención
 |   |   ├── CB_SMTH_BOW.ipynb
@@ -59,10 +55,10 @@ Este trabajo explora las dinámicas del ciberacoso mediante el análisis de text
 
 ### Tecnologías y herramientas usadas
 
-- **Python (Colab Notebooks)**: `pandas`, `scikit-learn`, `transformers`, `pysentimiento`
+- **Python (Colab Notebooks)**: `pandas`, `scikit-learn`, `transformers`, `pysentimiento`, etc.
 - **R**: `ggplot2`, `sf`, `tidyverse` para visualización y mapas
 - **APIs**: Twitter/X API (recolección de datos)
-- **GIS**: Procesamiento geográfico con coordenadas a archivos shapefile y visualización (pdf, png, svg)
+- **GIS**: Procesamiento geográfico con coordenadas a archivos shapefile y visualización realizados en QGIS (pdf, png, svg)
 
 ---
 
@@ -92,27 +88,36 @@ Detectar y analizar el ciberacoso con enfoques automáticos, contribuyendo a la 
 
 ## 🐧 Autor
 
-**Marisela Cadena**  
+**Lic. en C. Marisela Cadena Cosmes**  
 - Para obtener grado de Maestro en Ciencias de la Computación
 - [Instituto Politécnico Nacional](https://www.ipn.mx)
+- [Centro de Investigación en Computación](https://www.cic.ipn.mx)
 
 ---
 
 ## 📌 Nota
 
-Este repositorio es parte de un trabajo académico. Si deseas usar algún fragmento de código, por favor, cita adecuadamente o contacta a la autora.
+Este repositorio es parte de un trabajo académico. Si deseas usar algún fragmento de código, por favor, cita adecuadamente o contacta a la autora. 
 
-El dataset en el siguiente enlace:
+**Contacto**
+- [missmaryvangogh@gmail.com](mailto:missmaryvangogh@gmail.com)
+
+**Dataset**
 - [Dataset](https://www.kaggle.com/datasets/mariyselita/posts-de-x-preprocesados-de-mexico)
 
-Citar APA:
+**Citar APA dataset:**
 - Marisela Cadena Cosmes. (2025). Pre-processed X posts from Mexico [Dataset]. Kaggle. https://doi.org/10.34740/KAGGLE/DS/7822010
+
+
+**Repositorio original**
+- [https://github.com/Mariyselita/ciberbullying_tesis](https://github.com/Mariyselita/ciberbullying_tesis)
+
 
 ---
 
 ## 🛡️ Licencia
 
-Este proyecto está bajo una licencia de uso académico y de la Secretaría de Ciencia, Humanidades, Tecnología e Innovación.
+Este proyecto está bajo una licencia de uso académico y de la Secretaría de Ciencia, Humanidades, Tecnología e Innovación y del Instituto Politécnico Nacional.
 
 
 
